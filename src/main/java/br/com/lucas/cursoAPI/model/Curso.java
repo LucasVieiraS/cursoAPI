@@ -1,5 +1,10 @@
 package br.com.lucas.cursoAPI.model;
 
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="curso")
 public class Curso {
 
     private Long id;
